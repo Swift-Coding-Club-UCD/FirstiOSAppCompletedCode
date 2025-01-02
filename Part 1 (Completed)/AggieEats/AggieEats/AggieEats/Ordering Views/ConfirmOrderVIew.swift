@@ -1,11 +1,9 @@
 //
-//  ConfirmOrderView.swift
-//  Intro To SwiftUI
+//  ConfirmOrderVIew.swift
+//  AggieEats
 //
-//  Created by Ashley Valdez on 12/30/24.
+//  Created by Ashley Valdez on 1/2/25.
 //
-
-import SwiftUI
 
 import SwiftUI
 

@@ -1,9 +1,11 @@
 //
 //  WeeklyMenuView.swift
-//  Intro To SwiftUI
+//  AggieEats
 //
-//  Created by Ashley Valdez on 12/30/24.
+//  Created by Ashley Valdez on 1/2/25.
 //
+
+import SwiftUI
 
 import SwiftUI
 
