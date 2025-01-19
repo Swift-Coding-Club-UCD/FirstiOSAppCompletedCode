@@ -2,8 +2,6 @@
 //  MenuOptionsView.swift
 //  AggieEats
 //
-//  Created by Ashley Valdez on 1/2/25.
-//
 
 import SwiftUI
 
@@ -19,7 +17,7 @@ struct MenuOptionsView: View {
                     .fontWeight(.semibold)
                 Text("Out of Stock")
                     .fontWeight(.medium)
-                    .foregroundColor(Color.red)
+                    .foregroundStyle(Color.red)
                 
             }
             .padding()
@@ -34,7 +32,7 @@ struct MenuOptionsView: View {
                     .fontWeight(.semibold)
                 Text("Limited Availability")
                     .fontWeight(.medium)
-                    .foregroundColor(Color.yellow)
+                    .foregroundStyle(Color.yellow)
                 
             }
             .padding()

@@ -2,20 +2,12 @@
 //  ContentView.swift
 //  AggieEats
 //
-//  Created by Ashley Valdez on 1/2/25.
-//
 
 import SwiftUI
 import MapKit
 import CodeScanner
 
 struct HomePage: View {
-    @State var location = MapCameraPosition.region(
-        MKCoordinateRegion(
-            center: CLLocationCoordinate2D(latitude: 38.54141, longitude: -121.74845),
-            span: MKCoordinateSpan(latitudeDelta: 0.001, longitudeDelta: 0.001)
-        )
-    )
     @State var showScanner = false
     @State var navigateToOrderingPage = false
     
