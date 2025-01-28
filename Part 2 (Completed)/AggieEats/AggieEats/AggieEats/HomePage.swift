@@ -92,7 +92,7 @@ struct TruckLocationView: View {
         Map {
             Marker(markerName, coordinate: CLLocationCoordinate2D(latitude: coordinates[0], longitude: coordinates[1]))
         }
-        .frame(width: 380, height: 400)
+        .frame(width: 410, height: 400)
         
         .padding(.bottom)
     }
