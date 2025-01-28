@@ -2,8 +2,6 @@
 //  MenuModel.swift
 //  AggieEats
 //
-//  Created by Ashley Valdez on 1/27/25.
-//
 
 import Foundation
 import OrderedCollections
