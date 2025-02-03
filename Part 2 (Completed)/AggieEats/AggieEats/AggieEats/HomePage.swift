@@ -38,7 +38,8 @@ struct HomePage: View {
                         }
                     } //end of inner VStack
                     
-                }
+                } //end of outer VStack
+                
             }
             .sheet(isPresented: $showScanner) {
                 CodeScannerView(codeTypes: [.qr], simulatedData: "ABCDE", completion: handleScan)
@@ -92,13 +93,12 @@ struct TruckLocationView: View {
         Map {
             Marker(markerName, coordinate: CLLocationCoordinate2D(latitude: coordinates[0], longitude: coordinates[1]))
         }
-        .frame(width: 410, height: 400)
+        .frame(width: 380, height: 400)
         
         .padding(.bottom)
     }
 }
 
-//First thing I did
 struct TodaysMenuView: View {
     @State var menuItems: OrderedDictionary<String, [String]>
     
@@ -109,7 +109,6 @@ struct TodaysMenuView: View {
                 .fontWeight(.bold)
             MenuOptionsView(menuItems: menuItems)
         }
-        .frame(maxWidth: .infinity, maxHeight: .infinity)
     }
 }
 

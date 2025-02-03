@@ -68,10 +68,10 @@ struct AllergensView: View {
                                 .fontWeight(.semibold)
                                 .foregroundStyle(.white)
                         }
-                    }
-                    }
-                }
-        }
+                     }
+                   }
+                } //end of outer HStack
+        } //end of VStack
     }
 }
 
